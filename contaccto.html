@@ -70,143 +70,228 @@
         </nav>
     </header>
 
-<div class="d-flex">          <!-- Contenedor padre -->
+
+    <div class="container-fluid d-none d-sm-block d-sm-none d-md-block">
+        <!-- Contenedor fluid condicional para que solo se muestre de md para arriba-->
+
+        <div class="d-flex ">
+            <!-- Contenedor padre para los dos componentes -->
 
 
-        <!-- barra lateral vista solo para desktop --lado izquierdo -->
-        <div class="flex-shrink-0 p-3 bg-white" style="width: 280px;">
+            <!-- barra lateral --lado izquierdo -->
+            <div class="flex-shrink-0 p-3 bg-white " style="width: 280px;">
 
-            <img class="img-fluid rounded-pill mx-auto d-block border-bottom m-3" src="Assets/imagenes/8.jpg" alt="">
-            <ul class="list-unstyled ps-0">
-    
-                <li class="mb-1">
-                    <button class="btn btn-toggle align-items-center rounded collapsed " data-bs-toggle="collapse"
-                        data-bs-target="#home-collapse" aria-expanded="true">
-                        Contacto
-                    </button>
-                    <div class="collapse show" id="home-collapse">
-                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                            <p class="fw-normal mt-3 "> Cel: +57 3216159078 </p>
-                            <p class="fw-normal">Correo: Andresflp17@gmail.com </p>
-                        </ul>
-                    </div>
-                </li>
-    
-                <li class="mb-1">
-                    <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse"
-                        data-bs-target="#dashboard-collapse" aria-expanded="false">
-                        Perfil
-                    </button>
-                    <div class="collapse" id="dashboard-collapse">
-                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-    
-                            <p class="fw-normal mt-2">Desarrollador Junior</p>
-                            <p class="fw-normal mt-3 ">
-                                yo soy Tecnólogo en mecatrónica,
-                                apasionado por la impresión 3D
-                                Actualmente me estoy formando
-                                en la carrera desarrollador Full
-                                Stack con CoderHouse
-                            </p>
-                        </ul>
-                    </div>
-                </li>
-    
-                <li class="mb-1">
-                    <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse"
-                        data-bs-target="#orders-collapse" aria-expanded="false">
-                        Educacion
-                    </button>
-                    <div class="collapse" id="orders-collapse">
-                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-    
-                            <p class="fw-normal mt-2">2016-2018<br>Medellin-Colombia<br>Tecnólogo En Diseño E Integración De
-                                Automatismos Mecatrónicos<br> Sevicio Nacional de aprendizaje-SENA <br>Estado: Finalizado
-                            </p>
-                            <p class="fw-normal mt-2">2021<br>Medellin-Colombia<br>Desarrollo Front End<br> Politécnico
-                                andino iberoamericano-alianza sapiencia <br>Estado: certificacion en proceso</p>
-                            <p class="fw-normal mt-2 border-bottom">2022<br>Oline<br>Desarrollador
-                                Full-Stack<br>CoderHouse<br>Estado:Cursando actualmente</p>
-                            <p class="fw-normal mt-2 ">Idiomas<br>Español: Nativo<br>Ingles: Intermedio</p>
-    
-                        </ul>
-                    </div>
-                </li>
-                <li class="border-top my-3"></li>
-                <li class="mb-1">
-                    <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse"
-                        data-bs-target="#account-collapse" aria-expanded="false">
-                        Proyectos
-                    </button>
-                    <div class="collapse" id="account-collapse">
-                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                            <li><a href="#" class="link-dark rounded">proyecto 1</a></li>
-                            <li><a href="#" class="link-dark rounded">proyecto 2</a></li>
-                            <li><a href="#" class="link-dark rounded">proyecto 3</a></li>
-                            <li><a href="#" class="link-dark rounded">proyecto 4</a></li>
-                        </ul>
-                    </div>
-                </li>
-            </ul>
-            
-        </div>
+                <img class="img-fluid rounded-pill mx-auto d-block border-bottom m-3" src="Assets/imagenes/8.jpg"
+                    alt="">
+                <ul class="list-unstyled ps-0">
 
+                    <li class="mb-1">
+                        <button class="btn btn-toggle align-items-center rounded collapsed " data-bs-toggle="collapse"
+                            data-bs-target="#home-collapse" aria-expanded="true">
+                            Contacto
+                        </button>
+                        <div class="collapse show" id="home-collapse">
+                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                <p class="fw-normal mt-3 "> Cel: +57 3216159078 </p>
+                                <p class="fw-normal">Correo: Andresflp17@gmail.com </p>
+                            </ul>
+                        </div>
+                    </li>
 
+                    <li class="mb-1">
+                        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse"
+                            data-bs-target="#dashboard-collapse" aria-expanded="false">
+                            Perfil
+                        </button>
+                        <div class="collapse" id="dashboard-collapse">
+                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
 
-        <!-- cartas --lado derecho -->
+                                <p class="fw-normal mt-2">Desarrollador Junior</p>
+                                <p class="fw-normal mt-3 ">
+                                    yo soy Tecnólogo en mecatrónica,
+                                    apasionado por la impresión 3D
+                                    Actualmente me estoy formando
+                                    en la carrera desarrollador Full
+                                    Stack con CoderHouse
+                                </p>
+                            </ul>
+                        </div>
+                    </li>
 
-    <div class="row row-cols-1 row-cols-md-3 g-4 mt-3 mb-3 p-4">
-        <div class="col">
-            <div class="card h-100">
-                <img src="Assets/imagenes/6.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                        additional content. This content is a little bit longer.</p>
-                </div>
-                <div class="card-footer">
-                    <small class="text-muted">Last updated 3 mins ago</small>
-                </div>
+                    <li class="mb-1">
+                        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse"
+                            data-bs-target="#orders-collapse" aria-expanded="false">
+                            Educacion
+                        </button>
+                        <div class="collapse" id="orders-collapse">
+                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+
+                                <p class="fw-normal mt-2">2016-2018<br>Medellin-Colombia<br>Tecnólogo En Diseño E
+                                    Integración De
+                                    Automatismos Mecatrónicos<br> Sevicio Nacional de aprendizaje-SENA <br>Estado:
+                                    Finalizado
+                                </p>
+                                <p class="fw-normal mt-2">2021<br>Medellin-Colombia<br>Desarrollo Front End<br>
+                                    Politécnico
+                                    andino iberoamericano-alianza sapiencia <br>Estado: certificacion en proceso</p>
+                                <p class="fw-normal mt-2 border-bottom">2022<br>Oline<br>Desarrollador
+                                    Full-Stack<br>CoderHouse<br>Estado:Cursando actualmente</p>
+                                <p class="fw-normal mt-2 ">Idiomas<br>Español: Nativo<br>Ingles: Intermedio</p>
+
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="border-top my-3"></li>
+                    <li class="mb-1">
+                        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse"
+                            data-bs-target="#account-collapse" aria-expanded="false">
+                            Proyectos
+                        </button>
+                        <div class="collapse" id="account-collapse">
+                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                <li><a href="#" class="link-dark rounded">proyecto 1</a></li>
+                                <li><a href="#" class="link-dark rounded">proyecto 2</a></li>
+                                <li><a href="#" class="link-dark rounded">proyecto 3</a></li>
+                                <li><a href="#" class="link-dark rounded">proyecto 4</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+
             </div>
-        </div>
-        <div class="col">
-            <div class="card h-100">
-                <img src="Assets/imagenes/6.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.
-                    </p>
+
+
+
+            <!-- cartas --lado derecho -->
+
+            <div class="row row-cols-1 row-cols-md-3 g-4 mt-3 mb-3 p-4">
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="Assets/imagenes/6.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Last updated 3 mins ago</small>
+                        </div>
+                    </div>
                 </div>
-                <div class="card-footer">
-                    <small class="text-muted">Last updated 3 mins ago</small>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="Assets/imagenes/6.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                                content.
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Last updated 3 mins ago</small>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card h-100">
-                <img src="Assets/imagenes/6.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                        additional content. This card has even longer content than the first to show that equal height
-                        action.</p>
-                </div>
-                <div class="card-footer">
-                    <small class="text-muted">Last updated 3 mins ago</small>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="Assets/imagenes/6.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This card has even longer content than the first to show that equal
+                                height
+                                action.</p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Last updated 3 mins ago</small>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
+
+
+    <!-- barra media --solo para vista movil -->
+    <div class="container-fluid p-3 bg-white    d-md-none d-lg-block d-lg-none d-xl-block d-xl-none" style="width: 280px;">
+
+        <img class="img-fluid rounded-pill mx-auto d-block border-bottom m-3" src="Assets/imagenes/8.jpg" alt="">
+        <ul class="list-unstyled ps-0">
+
+            <li class="mb-1">
+                <button class="btn btn-toggle align-items-center rounded collapsed " data-bs-toggle="collapse"
+                    data-bs-target="#home-collapse" aria-expanded="true">
+                    Contacto
+                </button>
+                <div class="collapse show" id="home-collapse">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                        <p class="fw-normal mt-3 "> Cel: +57 3216159078 </p>
+                        <p class="fw-normal">Correo: Andresflp17@gmail.com </p>
+                    </ul>
+                </div>
+            </li>
+
+            <li class="mb-1">
+                <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse"
+                    data-bs-target="#dashboard-collapse" aria-expanded="false">
+                    Perfil
+                </button>
+                <div class="collapse" id="dashboard-collapse">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+
+                        <p class="fw-normal mt-2">Desarrollador Junior</p>
+                        <p class="fw-normal mt-3 ">
+                            yo soy Tecnólogo en mecatrónica,
+                            apasionado por la impresión 3D
+                            Actualmente me estoy formando
+                            en la carrera desarrollador Full
+                            Stack con CoderHouse
+                        </p>
+                    </ul>
+                </div>
+            </li>
+
+            <li class="mb-1">
+                <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse"
+                    data-bs-target="#orders-collapse" aria-expanded="false">
+                    Educacion
+                </button>
+                <div class="collapse" id="orders-collapse">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+
+                        <p class="fw-normal mt-2">2016-2018<br>Medellin-Colombia<br>Tecnólogo En Diseño E Integración De
+                            Automatismos Mecatrónicos<br> Sevicio Nacional de aprendizaje-SENA <br>Estado: Finalizado
+                        </p>
+                        <p class="fw-normal mt-2">2021<br>Medellin-Colombia<br>Desarrollo Front End<br> Politécnico
+                            andino iberoamericano-alianza sapiencia <br>Estado: certificacion en proceso</p>
+                        <p class="fw-normal mt-2 border-bottom">2022<br>Oline<br>Desarrollador
+                            Full-Stack<br>CoderHouse<br>Estado:Cursando actualmente</p>
+                        <p class="fw-normal mt-2 ">Idiomas<br>Español: Nativo<br>Ingles: Intermedio</p>
+
+                    </ul>
+                </div>
+            </li>
+            <li class="border-top my-3"></li>
+            <li class="mb-1">
+                <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse"
+                    data-bs-target="#account-collapse" aria-expanded="false">
+                    Proyectos
+                </button>
+                <div class="collapse" id="account-collapse">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                        <li><a href="#" class="link-dark rounded">proyecto 1</a></li>
+                        <li><a href="#" class="link-dark rounded">proyecto 2</a></li>
+                        <li><a href="#" class="link-dark rounded">proyecto 3</a></li>
+                        <li><a href="#" class="link-dark rounded">proyecto 4</a></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+
+    </div>
 
 
 
-    
-
-
-
-
-    
 
 
 
