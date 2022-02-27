@@ -6,3 +6,60 @@ body {
   background: linear-gradient(to left, #155799, #159957);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   min-height: 100vh; }
+
+/* ********************* */
+/* MAPS */
+/* ************************** */
+.boton-Twitter {
+  background-color: #55acee;
+  border: #55acee; }
+
+.boton-facebook {
+  background-color: #3b5998;
+  border: #3b5998; }
+
+.boton-google {
+  background-color: #dd4b39;
+  border: #dd4b39; }
+
+.boton-instagram {
+  background-color: #ac2bac;
+  border: #ac2bac; }
+
+.boton-linkedin {
+  background-color: #0082ca;
+  border: #0082ca; }
+
+.boton-github {
+  background-color: #333333;
+  border: #333333; }
+
+/*****************/
+/*extends-Mixins*/
+/*****************/
+.borde-habilidades, .borde-habilidades2 {
+  border-radius: 20px;
+  background-color: #208ed8; }
+
+.borde-habilidades2 {
+  background-color: #dd85e0; }
+
+.borde-habilidades3 {
+  border-radius: 20px;
+  background-color: #f495b2; }
+
+.borde-habilidades4 {
+  border-radius: 20px;
+  background-color: #f4bb99; }
+
+.borde-habilidades5 {
+  border-radius: 20px;
+  background-color: #732751; }
+
+.borde-habilidades6 {
+  border-radius: 20px;
+  background-color: #ffc95b; }
+
+.borde-habilidades7 {
+  border-radius: 20px;
+  background-color: #ff0f4f; }

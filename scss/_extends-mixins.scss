@@ -1,0 +1,39 @@
+/*****************/
+/*extends-Mixins*/
+/*****************/
+
+
+.borde-habilidades{
+    border-radius: 20px;
+    background-color: #208ed8;
+}
+.borde-habilidades2{
+    @extend .borde-habilidades;
+    background-color: #dd85e0;
+}
+
+.borde-habilidades3{
+    border-radius: 20px;
+    background-color: #f495b2;
+}
+.borde-habilidades4{
+    border-radius: 20px;
+    background-color: #f4bb99;
+}
+.borde-habilidades5{
+    border-radius: 20px;
+    background-color: #732751;
+}
+.borde-habilidades6{
+    border-radius: 20px;
+    background-color: #ffc95b;
+}
+
+.borde-habilidades7{
+    border-radius: 20px;
+    background-color: #ff0f4f;
+}
+
+
+
+
